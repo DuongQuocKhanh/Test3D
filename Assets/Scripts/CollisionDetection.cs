@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class CollisionDetection : MonoBehaviour
 {
+    private float radius;
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("OnTriggerEnter " + other.name);
